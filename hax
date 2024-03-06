@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Button</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .awesome-button {
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #e74c3c;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .awesome-button:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="awesome-button" onclick="redirectToImage()">Free Caughtya</button>
+
+  <script>
+    function redirectToImage() {
+      window.open("https://resources.finalsite.net/images/f_auto,q_auto/v1622674550/evergreen/ajrqambvcvumoe66l5ku/Quimby_Caught_Ya_2.png");
+    }
+  </script>
+</body>
+
+</html>
